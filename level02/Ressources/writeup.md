@@ -18,6 +18,8 @@ Un fichier [pcap](https://fr.wikipedia.org/wiki/Pcap), on sort Wireshark !
 On a donc un extrait d'une connection TCP. 
 On Follow le stream et on passe en mode hexa, voilà une partie qui nous intéresse : 
 
+![](https://github.com/bhm-heddy/42project_snowcrash/blob/master/level02/Ressources/level02.png)
+
 
 *7f* correspond a la touche *delete* du clavier.
 
