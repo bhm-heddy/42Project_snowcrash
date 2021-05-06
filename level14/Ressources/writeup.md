@@ -1,13 +1,13 @@
-# LEVEL 00
+# LEVEL 14
 
-**LOGIN: level00**
+**LOGIN: level14**
 
 **PASSWORD: 2A31L79asukciNyi8uppkEuSx**
 
  ----
 
 
-Bon une heure de recherche infructueuse.. aucun indice.. rien
+Bon... une heure de recherche infructueuse.. aucun indice.. rien
 
 On va reverse GETFLAG directement. On sort CUTTER ! 
 
@@ -27,4 +27,10 @@ Dans une instruction de la fonction `ft_des` on retrouve la string "0123456"
 
 La clé de déchiffrement doit être "0123456", on pourrait déchiffrer nous même la clé mais vu que le programme le fait on va se placer juste après l'appel à ft_des et regarder la variable. 
 
+![](https://github.com/bhm-heddy/42project_snowcrash/blob/master/level14/Ressources/jump.png)
 
+![](https://github.com/bhm-heddy/42project_snowcrash/blob/master/level14/Ressources/flag!.png)
+
+Et voila notre 
+
+**TOKEN=7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ**
