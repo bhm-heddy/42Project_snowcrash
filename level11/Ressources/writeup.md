@@ -57,7 +57,7 @@ Avec `netstat` on confirme bien que le port 5151 est en écoute
 `tcp        0      0 127.0.0.1:5151          0.0.0.0:*               LISTEN      -`
 
 
-Cette ligne ` prog = io.popen("echo "..pass.." | sha1sum", "r")` doit nous permettre d'exploit un subshell avec le mot de passe entrée.
+Cette ligne ` prog = io.popen("echo "..pass.." | sha1sum", "r")` doit nous permettre d'exploit un subshell avec le mot de passe entré.
 
 ```
 nc localhost 5151
