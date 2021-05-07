@@ -37,5 +37,5 @@ flag02@SnowCrash:~$ getflag
 Check flag.Here is your token : kooda2puivaav1idi4f57q8iq
 ```
 
-Si pour la correction, on a pas acces a Wireshard : 
+Si pour la correction, on n'a pas acces à  Wireshard : 
 `tcpflow -C -r level02.pcap`
