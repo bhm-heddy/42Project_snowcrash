@@ -67,4 +67,4 @@ cat /tmp/exploit
 Check flag.Here is your token : wiok45aaoguiboiki2tuin6ub
 ```
 
-**TOKEN: wiok45aaoguiboiki2tuin6ub
+**TOKEN: wiok45aaoguiboiki2tuin6ub**
