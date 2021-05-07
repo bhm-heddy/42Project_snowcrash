@@ -21,7 +21,7 @@ for i in /opt/openarenaserver/* ; do
 done
 ```
 
-Ok, donc toutes les 2 minutes, les scirpts présent dans */opt/openarenaserv/** sont exec. On a les droits d'écriture dedans. 
+Ok, donc toutes les 2 minutes, les scripts présents dans */opt/openarenaserv/** sont exec. On a les droits d'écriture dans le repertoire. 
 
 ```
 vim /otp/openarenaserv/exploit.sh
