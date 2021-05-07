@@ -9,8 +9,8 @@
 
 => Quand on arrive, il n'y a rien dans le home, pas d'índice. 
 
-Iniatilement les projetcs étaient liés à une vidéo de présentation du projet. 
-Après avoir retrouver cette vidéo dans les archives, on y trouve un premier indice : 
+Iniatilement les projets étaient liés à une vidéo de présentation du projet. 
+Après avoir retrouvé cette vidéo dans les archives, on y trouve un premier indice : 
 
 *FIND this first file who can run only as flag00....*
 
@@ -30,7 +30,7 @@ cdiiddwpgswtgt
 Le code ne marche pas pour passer au niveau suivant. 
 Vu le nom du fichier je lance *John the Ripper* mais rien de concluant. 
 
-Direction https://www.dcode.fr/ , premier niveau du CTF on commence par le code cesar :
+Direction https://www.dcode.fr/ , premier niveau du CTF, on commence donc par le code cesar :
 Bingo !! 
 
 **TOKEN = x24ti5gi3x0ol2eh4esiuxias**
