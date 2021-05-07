@@ -28,9 +28,9 @@ $r = x($argv[1], $argv[2]); print $r;
 ```
 
 
-ARVG2 n est jamais utilisé
-La fonction y() ne sert a rien car elle est appelé ici :  `"y(\"\\2\")"` et y a pas de `.` ni de `@`.
-Seulement le premier appelle à `preg_replace` dans `x()` nous intérrese. 
+ARVG2 n'est jamais utilisé. 
+La fonction y() ne sert a rien car elle est appelée ici :  `"y(\"\\2\")"` et il n'y a pas de `.` ni de `@`.
+Seulement le premier appel à `preg_replace` dans `x()` nous intérrese. 
 On peut donc resumer le code comme ceci :
 ```
 function x($y) { $a = file_get_contents($y); $a = preg_replace("/(\[x (.*)\])/e", "\"\\2\"", $a); return $a; }
