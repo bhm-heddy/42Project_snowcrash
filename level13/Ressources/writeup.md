@@ -15,7 +15,7 @@ boe]!ai0FB@.:|L6l@A?>qJ}I
 your token is %s
 ...
 ```
-Ce strings nous donne ces info qui devraient nous etre utiles par la suite.
+Ce `strings` nous donne ces infos qui devraient nous être utiles par la suite.
 
 ```
 ltrace ./level13 
@@ -55,7 +55,7 @@ On set LD_PRELOAD:
 On run : 
 `run`
 
-Ok! là ca marche :
+Ok! Là ca marche :
 ```
 Starting program: /home/user/level13/level13 
 your token is 2A31L79asukciNyi8uppkEuSx
