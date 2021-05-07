@@ -22,7 +22,7 @@ cat: token: Permission denied
 	sends file to host if you have access to it
 ```
 
-Ok un peu de reseau ? 
+Ok un peu de reseau !? 
 
 `level10@SnowCrash:~$ touch file host`
 ```
@@ -37,7 +37,7 @@ connect(3, {sa_family=AF_INET, sin_port=htons(6969), sin_addr=inet_addr("255.255
 ....
 ```
 
-Le programme utilies `access` pour vérifier les droits au fichier passé en argument ... on image pouvoir utiliser un Exploiting Race Condition. 
+Le programme utilise `access` pour vérifier les droits au fichier passé en argument ... on imagine pouvoir utiliser un Exploiting Race Condition. 
 Puis, il crée une connection sur l'ip passée en paramètre sur le port 6969
 
 On ouvre donc une connection en attente sur ce port 
