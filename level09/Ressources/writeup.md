@@ -1,6 +1,6 @@
 # LEVEL 09
 
-**LOGIN: level09*
+**LOGIN: level09**
 
 **PASSWORD: 25749xKZ8L7DkSCwJkT9dyv6f**
 
@@ -32,9 +32,9 @@ level09@SnowCrash:~$ cat token
 f4kmm6p|=�p�n��DB�Du{��
 ```
 
-Ok! l'output du binaire ne dépend pas du contenu du fichier, d'autant plus qu'un `nm level09` nous apprend qu'il n'y a pas d'appel a `open`
+Ok! L'output du binaire ne dépend pas du contenu du fichier, d'autant plus qu'un `nm level09` nous apprend qu'il n'y a pas d'appel à `open`
 
-Le binaire prend donc une chaine, la modifie puis la print. Le fichier token contient donc le token modifier par le binaire.
+Le binaire prend donc une chaine, la modifie puis la print. Le fichier token contient donc le token modifié par le binaire.
 
 ```
 level09@SnowCrash:~$ ./level09 abcdefg
@@ -45,7 +45,7 @@ level09@SnowCrash:~$ ./level09 aaaaaa
 abcdef
 ```
 
-Le binaire rajoute n+1 a chaque lettre de la string
+Le binaire rajoute n+1 à chaque lettre de la string
 
 On se fait un petit reverse 
 ```C
